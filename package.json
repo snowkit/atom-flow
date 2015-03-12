@@ -1,0 +1,21 @@
+{
+  "name": "atom-flow",
+  "main": "./lib/flow.js",
+  "version": "0.0.0",
+  "description": "atom.io support for haxe flow build tool.",
+  "activationCommands": {},
+  "consumedServices":{
+      "haxe-completion.provider": {
+        "versions": {
+          "1.0.0": "completion_service"
+        }
+      }
+  },
+  "repository": "https://github.com/snowkit/atom-flow",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
