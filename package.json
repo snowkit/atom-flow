@@ -1,15 +1,15 @@
 {
   "name": "flow",
   "main": "./lib/flow.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "atom.io support for the haxe flow build tool.",
   "activationCommands": {},
-  "consumedServices":{
-      "haxe-completion.provider": {
-        "versions": {
-          "1.0.0": "completion_hook"
-        }
+  "consumedServices": {
+    "haxe-completion.provider": {
+      "versions": {
+        "1.0.0": "completion_hook"
       }
+    }
   },
   "repository": "https://github.com/snowkit/atom-flow",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {
-      "atom-message-panel": "~1.2.2",
-      "atom-space-pen-views": "~2.0.4"
+    "atom-message-panel": "~1.2.2",
+    "atom-space-pen-views": "~2.0.4"
   }
 }
