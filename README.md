@@ -13,7 +13,18 @@ Thanks!
 - Right click a flow file in the tree view
 - Set as active flow file
 - Ctrl/Cmd + Shift + P (command palette)
-- flow:status or flow: set target
+- flow: status or flow: set target
 
 You can also select items from the status menu to perform
 an action or change the values.
+
+## Done
+
+- talk to and configure haxe completion provider for completion
+- flow status
+- flow file syntax color
+- flow target selection
+
+## :todo:
+
+- Build / Run
