@@ -11,8 +11,17 @@
       'label': 'flow'
       'submenu': [
         {
-          'label': 'Toggle'
-          'command': 'flow:toggle'
+          'label': 'Status'
+          'command': 'flow:status'
+        },
+        {
+          'label': 'Set target'
+          'command': 'flow:set-target'
+        },
+        { type: 'separator' },
+        {
+          'label': 'Toggle log view'
+          'command': 'flow:toggle-log-view'
         }
       ]
     ]
