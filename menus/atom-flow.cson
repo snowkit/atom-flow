@@ -20,6 +20,11 @@
         },
         { type: 'separator' },
         {
+          'label': 'Clear active project'
+          'command': 'flow:clear-project'
+        },
+        { type: 'separator' },
+        {
           'label': 'Toggle log view'
           'command': 'flow:toggle-log-view'
         }
