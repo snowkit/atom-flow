@@ -19,6 +19,9 @@ Thanks!
 You can select items from the status menu to perform
 an action or change the values.
 
+![](http://i.imgur.com/6GlFurq.gif)
+![](http://i.imgur.com/uqKIc1O.gif)
+
 ## Done
 
 - build/run flow projects
