@@ -8,6 +8,12 @@ some rough edges and pain points. Issues, feedback and suggestions are welcome.
 
 Thanks!
 
+## Requirements
+Installed these from atom Settings -> Install
+
+- requires the `haxe` package
+- requires `language-haxe` package
+
 ## Usage
 
 - Right click a flow file in the tree view
