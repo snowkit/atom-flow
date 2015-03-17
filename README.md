@@ -11,8 +11,8 @@ Thanks!
 ## Requirements
 Installed these from atom Settings -> Install
 
-- requires the `haxe` package
-- requires `language-haxe` package
+- requires the `haxe` package and it's dependencies
+    - see [atom-haxe](https://github.com/snowkit/atom-haxe) for list
 
 ## Usage
 
