@@ -1,7 +1,7 @@
 {
   "name": "flow",
   "main": "./lib/flow.js",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "atom.io support for the haxe flow build tool.",
   "activationCommands": {},
   "consumedServices": {
