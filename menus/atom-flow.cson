@@ -1,9 +1,4 @@
 
-'context-menu':
-  '[data-path$=flow]': [
-      { label: 'Set as active flow file', command: 'flow:set-flow-file'},
-      { type: 'separator' },
-  ]
 'menu': [
   {
     'label': 'Packages'

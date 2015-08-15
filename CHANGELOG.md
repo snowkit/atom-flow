@@ -1,4 +1,38 @@
-## 0.3.0 - Dev
+## 0.4.2
+
+* Fix bug in context menus on Atom 1.0.7
+* Add right click to flow files for set target as
+
+## 0.4.1
+
+* fix bug in status and target display (thanks @jeremyfa)
+
+## 0.4.0
+
+* cleaned up logging
+
+## 0.3.2
+
+* add clearer notes for dependencies
+
+## 0.3.1
+
+* add requirements notes to readme
+
+## 0.3.0
+
+* make menus useful
+* status window show lack of flow file
+* add clear project menu command
+* clean up consumer set logic
+* provide build selectors
+* status warning shows as notification
+* add build selectors to config
+* various internal implementation details completed
+
+## 0.2.1
+
+* update readme
 
 ## 0.2.0
 
