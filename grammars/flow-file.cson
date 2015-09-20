@@ -30,11 +30,24 @@ patterns: [
   {
     include: "#normal_numeric"
   }
+  {
+    include: "#comments"
+  }
 ]
 repository:
   bool_values:
     match: "\\\"?\\b(true|false)\\b\\\"?"
     name: "constant.numeric.flow"
+  comments:
+    patterns: [
+      {
+        captures:
+          "1":
+            name: "punctuation.definition.comment.flow"
+        match: "(//).*$\\n?"
+        name: "comment.line.double-slash.flow"
+      }
+    ]
   keyword_arrays:
     captures:
       "1":
@@ -67,7 +80,7 @@ repository:
         name: "entity.name.identifier.normal_numeric.flow"
       "2":
         name: "constant.numeric.normal_numeric.flow"
-    match: "\\\"?\\b(.*)\\b\\\"?\\s*[:]\\s*([0-9])"
+    match: "\\\"?\\b(.*)\\b\\\"?\\s*[:]\\s*(\\d+)"
     name: "meta.normal_numeric.flow"
   normal_objects:
     captures:
@@ -76,7 +89,7 @@ repository:
     match: "\\\"?\\b(.*)\\b\\\"?(?:.*[:]\\s*[{])"
     name: "meta.normal_objects.flow"
   numeric_values:
-    match: "\\\"?\\b([0-9])\\b\\\"?"
+    match: "\\\"?\\b(\\d+)\\b\\\"?"
     name: "constant.numeric.flow"
   string_values:
     patterns: [
