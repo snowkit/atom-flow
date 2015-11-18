@@ -1,3 +1,9 @@
+## 0.5.2
+
+* Fix #9, exceptions from typing into the flow status dropdown
+* Fix #10, default target config wasn't applied
+* Fix #11, reading the wrong debug config flag 
+
 ## 0.5.1
 
 * Minor fixes for El Capitan path fix
