@@ -1,3 +1,8 @@
+## 0.4.3
+
+* Fix El Capitan default PATH for the immediate term
+* Use haxelib path from haxe plugin, not hardcoded haxelib executable
+
 ## 0.4.2
 
 * Fix bug in context menus on Atom 1.0.7
