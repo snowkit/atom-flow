@@ -1,3 +1,7 @@
+## 0.5.3
+
+* Fix missing path_set to true
+
 ## 0.5.2
 
 * Fix #9, exceptions from typing into the flow status dropdown
